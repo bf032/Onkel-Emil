@@ -29,7 +29,7 @@ definiert den Empfänger in gerichteten Netzwerken. Entspricht ID in der Nodelis
 
 definiert Beziehungsart zwischen zwei Akteuren
 
- 1 = \*Liebesbeziehung\*\
+1 = \*Liebesbeziehung\*\
 Liebesbeziehung zwischen zwei Akteuren\
 2 = \*Verwandtschaft\* \
 Diese Akteure sind miteinander verwandt\
@@ -44,7 +44,7 @@ Beginn der Beziehung
 
 Ende der Beziehung
 
-\*\*function\*\*
+\*\*role\*\*
 
 Rolle eines Akteurs bei einer Aktion, codiert nach
 
@@ -58,9 +58,9 @@ Rolle eines Akteurs bei einer Aktion, codiert nach
 8 = Besitz verstecken\
 10 = Hilfeleistungen empfangen\
 11 = ärztliche Versorgung\
-12 = Rechtsauskunft
+12 = Rechtsauskunft\
 
-\
+
 \#NODE-Attribute
 
 \*\*id\*\*
@@ -84,7 +84,7 @@ Aktionen: selbstgewählte Abkürzungen
 \*\*sex\*\*
 
 1 = weiblich\
-2 = männlich 
+2 = männlich\
 
 \*\*year_birth\*\*
 
@@ -94,7 +94,7 @@ Jahr der Geburt
 
 Jahr des Todes
 
-\*\*profession\*\* 
+\*\*profession\*\*
 
 Welcher Berufsgruppe hat er/sie angehört?
 
@@ -103,7 +103,7 @@ Welcher Berufsgruppe hat er/sie angehört?
 3 = Kunsthandwerk (Dirigent, Musiker, Schauspieler)\
 4 = Bildung (Studienrat, Gesandtschaftsrat)\
 5 = Gesundheitswesen (Arzt)\
-6 = Soziales & Religion  (Pfarrer)\
+6 = Soziales & Religion (Pfarrer)\
 7 = Ernährung/Handel (Konditor)\
 8 = Militär\
 9 = Anderes
@@ -118,7 +118,7 @@ Ist der-/diejenige Mitglied oder nur Unterstützer der Gruppe?
 4 = Geholfene Personen\
 5 = Geholfen und Mitglied\
 6 = Geholfen und Stammgruppe\
-7 = Geholfen und Unterstützer
+7 = Geholfen und Unterstützer\
 
 \*\*joining\*\*
 
@@ -133,126 +133,9 @@ Wann hat er/sie die Gruppe verlassen?
 Um welche Art von Aktion handelt es sich?
 
 1 = Hilfsaktionen\
-2 = aktiver Protest gegen das NS-System
+2 = aktiver Protest gegen das NS-System\
 
 \*\*year_action\*\*
 
 In welchem Jahr war die Aktion?
 
-\
-\
-\
-\
-
-\
-\
-
-\
-\
-
-\
-\
-
-das Jahr der Verbindung
-
-\# NODE-Attribute
-
-\*\*id\*\*
-
-eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird - identisch mit den IDs der Edge-List
-
-\*\*short_name\*\*
-
-Nachname des_der Politiker_in
-
-\*\*name\*\*
-
-Vollständiger Name des_der Politiker_in
-
-\*\*sex\*\*
-
-Geschlecht, numerische Ausprägung/Codierung:
-
-1 = female
-
-2 = male
-
-\*\*education\*\*\*
-
-höchster Bildungsabschluss, numerische Ausprägung/Codierung:
-
-1 = Diplom
-
-2 = Promotion
-
-3 = Staatsexamen
-
-4 = Magister
-
-\*\*position\*\*
-
-jetzige Position, Codierung:
-
-1 = Staatssekretär_in
-
-2 = Minister_in
-
-\*\*subject\*\*
-
-Fachrichtung bei Studium/Promotion, Codierung:
-
-1= Politik
-
-2 = Rechtswissenschaften
-
-3 = Soziales
-
-4 = Wirtschaft
-
-\*\*party\*\*
-
-Parteizugehörigkeit, Codierung:
-
-gruene = Bündnis 90/Grüne
-
-fdp = FDP
-
-spd = SPD
-
-\*\*religion\*\*
-
-Religion, Codierung:
-
-1 = evangelisch
-
-2 = römisch-katholisch
-
-\*\*kids\*\*
-
-Anzahl der Kinder
-
-\*\*twitter\*\*
-
-Anzahl der Twitter-Follower
-
-\*\*facebook\*\*
-
-Anzahl der Facebook-Follower
-
-\*\*youtube\*\*
-
-Anzahl der Youtube-Abonnenten
-
-\*\*instagram\*\*
-
-Anzahl der Instagram-Follower
-
-\*\*type\*\*
-
-Art des Knoten, Codierung:
-
-0 = Person
-
-1 = Organisation
-
-\#\#
