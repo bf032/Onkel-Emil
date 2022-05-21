@@ -3,38 +3,41 @@ title: "Codebuch Onkel Emil"
 author: "Hanna Bekele, Berenice Fengler, Nina Walter, Anika Geiger"
 date: "21/05/2022"
 output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Das Netzwerk ist ein *gerichtetes two-mode Netzwerk.
+Das Netzwerk ist ein *gerichtetes* two-mode Netzwerk.
 
-#EDGE-Attribute
+# EDGE-Attribute
 
 **id**
 
-eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird, selbst ernannte Abkürzungen
+eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst
+wird, selbst ernannte Abkürzungen
 
 **from**
 
-definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist.
+definiert den Sender in gerichteten Netzwerken. Entspricht ID in der
+Nodelist.
 
 **to**
 
-definiert den Empfänger in gerichteten Netzwerken. Entspricht ID in der Nodelist.
+definiert den Empfänger in gerichteten Netzwerken. Entspricht ID in der
+Nodelist.
 
 **relationship**
 
 definiert Beziehungsart zwischen zwei Akteuren
 
-1 = *Liebesbeziehung*
-Liebesbeziehung zwischen zwei Akteuren
-2 = *Verwandtschaft*
-Diese Akteure sind miteinander verwandt
-3 = *Rekrutierung* 
-Wer hat wen in den Freundeskreis gebracht?
+1 = *Liebesbeziehung* Liebesbeziehung zwischen zwei Akteuren\
+2 = *Verwandtschaft* Diese Akteure sind miteinander verwandt\
+3 = *Rekrutierung* Wer hat wen in den Freundeskreis gebracht?
 
 **start_relationship**
 
@@ -59,12 +62,12 @@ Rolle eines Akteurs bei einer Aktion, codiert nach
 11 = ärztliche Versorgung\
 12 = Rechtsauskunft\
 
-
-#NODE-Attribute
+# NODE-Attribute
 
 **id**
 
-eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird, selbst ernannte Abkürzungen
+eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst
+wird, selbst ernannte Abkürzungen
 
 **name**
 
@@ -97,26 +100,26 @@ Jahr des Todes
 
 Welcher Berufsgruppe hat er/sie angehört?
 
-1 = Recht (Jurist)
-2 = Medien/Druck (Journalist, Drucker, Grafiker)
-3 = Kunsthandwerk (Dirigent, Musiker, Schauspieler)
-4 = Bildung (Studienrat, Gesandtschaftsrat)
-5 = Gesundheitswesen (Arzt)
-6 = Soziales & Religion (Pfarrer)
-7 = Ernährung/Handel (Konditor)
-8 = Militär
+1 = Recht (Jurist)\
+2 = Medien/Druck (Journalist, Drucker, Grafiker)\
+3 = Kunsthandwerk (Dirigent, Musiker, Schauspieler)\
+4 = Bildung (Studienrat, Gesandtschaftsrat)\
+5 = Gesundheitswesen (Arzt)\
+6 = Soziales & Religion (Pfarrer)\
+7 = Ernährung/Handel (Konditor)\
+8 = Militär\
 9 = Anderes
 
 **membership**
 
 Ist der-/diejenige Mitglied oder nur Unterstützer der Gruppe?
 
-1 = Mitglied
-2 = Stammgruppe
-3 = Unterstützer
-4 = Geholfene Personen
-5 = Geholfen und Mitglied
-6 = Geholfen und Stammgruppe
+1 = Mitglied\
+2 = Stammgruppe\
+3 = Unterstützer\
+4 = Geholfene Personen\
+5 = Geholfen und Mitglied\
+6 = Geholfen und Stammgruppe\
 7 = Geholfen und Unterstützer
 
 **joining**
@@ -131,10 +134,9 @@ Wann hat er/sie die Gruppe verlassen?
 
 Um welche Art von Aktion handelt es sich?
 
-1 = Hilfsaktionen
+1 = Hilfsaktionen\
 2 = aktiver Protest gegen das NS-System
 
 **year_action**
 
 In welchem Jahr war die Aktion?
-
